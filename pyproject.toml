@@ -8,6 +8,7 @@ authors = [
 dependencies = [
     "pytest>=8.3.3",
     "flake8>=5.0.4",
+    "requests>=2.32.3",
 ]
 requires-python = "==3.8.*"
 readme = "README.md"
@@ -35,6 +36,7 @@ exclude = '''
     \.git
   | \.hg
   | \.tox
+  | .venv
   | venv
   | buck-out
   | build
